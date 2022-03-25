@@ -1,5 +1,6 @@
 # 2048-game
 
+## Description of python files
 The following python files contain the respective information.
 
 1) GameManager.py. This is the driver program that loads the Computer AI and Player AI, and begins a game where they compete with each other. See below on how to execute this program.
@@ -12,3 +13,9 @@ The following python files contain the respective information.
 To test the code, execute the game manager like so:
 $ python GameManager.py
 The progress of the game will be displayed on the terminal screen, with one snapshot printed after each move that the Computer AI or Player AI makes. The Player AI is allowed 0.2 seconds to come up with each move. The process continues until the game is over; that is, until no further legal moves can be made. At the end of the game, the maximum tile value on the board is printed.
+
+## Screenshot of the algorithm in action
+![Sample](https://user-images.githubusercontent.com/81757215/160060099-cac84703-1855-4eb8-b33b-0c772e3699b8.JPG)
+
+## Screenshot of the final grid
+![4096 screenshot](https://user-images.githubusercontent.com/81757215/160060080-fd80fdd4-63d4-4699-a309-c7463ba38225.JPG)
