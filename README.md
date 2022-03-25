@@ -2,7 +2,7 @@
 
 The following python files contain the respective information.
 
-1) GameManager.py. This is the driver program that loads your Computer AI and Player AI, and begins a game where they compete with each other. See below on how to execute this program.
+1) GameManager.py. This is the driver program that loads the Computer AI and Player AI, and begins a game where they compete with each other. See below on how to execute this program.
 2) Grid.py. This module defines the Grid object, along with some useful operations: move(), getAvailableCells(), insertTile(), and clone().
 3) BaseAI.py. This is the base class for any AI component. All AIs inherit from this module, and implement the getMove() function, which takes a Grid object as parameter and returns a move (there are different "moves" for different AIs).
 4) ComputerAI.py. This inherits from BaseAI. The getMove() function returns a computer action that is a tuple (x, y) indicating the place you want to place a tile.
