@@ -1,6 +1,6 @@
 # 2048-game
 
-The following python files contain the following information.
+The following python files contain the respective information.
 
 1) GameManager.py. This is the driver program that loads your Computer AI and Player AI, and begins a game where they compete with each other. See below on how to execute this program.
 2) Grid.py. This module defines the Grid object, along with some useful operations: move(), getAvailableCells(), insertTile(), and clone().
